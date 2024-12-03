@@ -93,24 +93,20 @@ h1{
     font-size: 0.91rem;
 }
 
-button{
-    width: 2rem;
+ion-icon{
+    width: 1rem;
     padding: 0.5rem;
     background-color: var(--LightGrayishBlue);
+    color: var(--VeryDarkGrayishBlue);
     border-radius: 50%;
     border: 0px solid;
 }
 
-.share{
-    fill: aliceblue;
-}
 
-
-button:hover{
+ion-icon:hover{
     background-color: var(--GrayishBlue);
+    color: white;
 }
-
-
 
 .autor{
     display: flex;
@@ -127,10 +123,52 @@ button:hover{
 }
 
 .socials{
-    display: none;
+    z-index: 20;
+    background-color: var(--VeryDarkGrayishBlue);
+    display: flex;
+    justify-content: center;
+    border-radius: 0rem 0rem 0.6rem 0.6rem;
+    padding: 1rem 0rem 0.7rem 0rem;
+}
+
+.arrow{
+    width: 1.95rem;
+    padding: 0.5rem;
+    background-color: var(--GrayishBlue);
+    color: white;
+    border-radius: 50%;
+    border: 0px solid;
+}
+
+.container{
+    display: flex;
+    width: 17.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#shareText{
+    text-transform:uppercase;
+    color: var(--GrayishBlue);
+    font-weight: var(--weight5);
+    letter-spacing: 0.3rem;
+    font-size: 0.8rem;
+}
+
+.fb{
+    margin-inline-start: -1rem;
+}
+
+.x{
+    margin-inline-start: -2rem;
+}
+
+.pin{
+    margin-inline-start: -2.8rem;
 }
 
 footer{
     font-family: var(--font);
     color: var(--VeryDarkGrayishBlue);
+    margin-block-end: 15px;
 }
