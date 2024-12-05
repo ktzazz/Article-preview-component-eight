@@ -1,6 +1,11 @@
-const boton = document.getElementsByName('arrow-redo');
-const menu = document.getElementsByClassName('socials');
+const share = document.querySelector("ion-icon");
+const socials = document.querySelectorAll(".sCount"); // Use querySelectorAll
 
-boton.addEventListener('click', () => {
-  menu.classList.toggle('socialsMenu');
-});
+share.addEventListener("click", () => {
+    if (socials.style.display === "none") {
+      socials.style.display = "block";
+    } else {
+      socials.style.display = "none";
+    }
+    
+  });

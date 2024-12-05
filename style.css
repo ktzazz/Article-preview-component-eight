@@ -70,7 +70,7 @@ h1{
 
 .profile{
     border-radius: 50%;
-    width: 3.1rem;
+    width: 2.8rem;
     margin-inline-start: 0.35rem;
 }
 
@@ -122,21 +122,20 @@ ion-icon:hover, ion-icon:focus{
     padding-block-end: 1rem;
 }
 
-#socialsMenu{ 
-    display: none;
-}
-
 .socials{
     position: absolute;
-    top: 31.3rem;
+    top: 31.2rem;
     width: 21.5rem;
+    height: 4.2rem;
     background-color: var(--VeryDarkGrayishBlue);
     display: flex;
     justify-content: center;
     border-radius: 0rem 0rem 0.6rem 0.6rem;
     padding: 1rem 0rem 0.7rem 0rem;
     z-index: 1;
+    display: none;
 }
+
 
 .arrow{
     width: 2rem;
