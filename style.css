@@ -195,7 +195,7 @@ footer{
     color: var(--VeryDarkGrayishBlue);
     /*margin-block-end: 15px;*/
     position: absolute;
-    bottom: 2rem;
+    bottom: 1rem;
 }
 
 @media (min-width:760px){
