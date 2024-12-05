@@ -70,27 +70,28 @@ h1{
 
 .profile{
     border-radius: 50%;
-    width: 2.8rem;
+    width: 2.6rem;
     margin-inline-start: 0.35rem;
 }
 
 .user{
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
-    margin-inline-start: -2.5rem;
+    gap: 0.12rem;
+    margin-inline-start: -3.5rem;
 }
 
 #userName{
     font-weight: var(--weight7);
     color: var(--VeryDarkGrayishBlue);
-    font-size: 0.91rem;
+    font-size: 0.85rem;
 }
 
 #dte{
     font-weight: var(--weight5);
     color: var(--DesaturatedDarkBlue);
-    font-size: 0.91rem;
+    opacity: 0.72;
+    font-size: 0.8rem;
 }
 
 
@@ -98,7 +99,7 @@ ion-icon{
     width: 1rem;
     padding: 0.5rem;
     background-color: var(--LightGrayishBlue);
-    color: var(--VeryDarkGrayishBlue);
+    color: var(--DesaturatedDarkBlue);
     border-radius: 50%;
 }
 
@@ -120,7 +121,8 @@ ion-icon:hover, ion-icon:active{
 .user-box{
     display: flex;
     justify-content: center;
-    padding-block-end: 1rem;
+    margin-block-start: 0.5rem;
+    padding-block-end: 0.5rem;
 }
 
 .socials{
@@ -143,11 +145,12 @@ ion-icon:hover, ion-icon:active{
 
 
 .arrow{
-    width: 2rem;
-    padding: 0.5rem;
+    width: 1.8rem;
+    padding: 0.4rem;
     background-color: var(--DesaturatedDarkBlue);
     border-radius: 50%;
     border: 0px solid;
+    margin-inline-start: -2.15rem;
 }
 
 .arrow:hover{
@@ -155,13 +158,12 @@ ion-icon:hover, ion-icon:active{
     background-color: var(--GrayishBlue);
 }
 
-
-
 .container{
     display: flex;
     width: 17.5rem;
     justify-content: space-between;
     align-items: center;
+    margin-inline-start: 0.85rem;
 }
 
 #shareText{
@@ -173,15 +175,15 @@ ion-icon:hover, ion-icon:active{
 }
 
 .fb{
-    margin-inline-start: -1rem;
+    margin-inline-start: -1.9rem;
 }
 
 .x{
-    margin-inline-start: -2rem;
+    margin-inline-start: -2.9rem;
 }
 
 .pin{
-    margin-inline-start: -2.8rem;
+    margin-inline-start: -4rem;
 }
 
 .fb:hover, .x:hover, .pin:hover{
