@@ -276,3 +276,106 @@ footer{
 
 }
 
+@media (min-width: 1200px){
+
+    .main{
+        margin: 15rem 0rem 15rem 0rem;
+        width: 47rem;
+        height: fit-content;
+    }
+    
+    .image{
+        width: 18.4rem;
+        height: 18rem;
+        object-position: 0% 30%;
+    }
+    
+    .info{
+        padding: 2.2rem 3rem 0.5rem 0rem;
+        margin-inline-start: -2.5rem;
+    }
+
+    h1{
+        font-size: 1.3rem;
+    }
+    
+    #description{
+        font-size: 0.85rem;
+    }
+    
+    .profile{
+        margin-inline-start: -3.7rem;
+    }
+    
+    .user-box{
+        margin: 0.2rem 0rem 0.7rem -2.95rem;
+    }
+
+    .user{
+        margin-inline-start: -9rem;
+    }
+
+    ion-icon{
+        margin-inline-end: -1.7rem;
+    }
+
+    ion-icon:active, ion-icon:hover{
+        background-color: var(--DesaturatedDarkBlue);
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    .socials{
+        position: absolute;
+        top: 24.3rem;
+        margin-inline-start: 36.7rem;
+        width: 13rem;
+        height: 3.2rem;
+        border-radius: 0.6rem;
+        box-shadow: 0px 10px 5px rgba(207, 207, 207, 0.3);
+    }      
+    
+    .socials::after{
+        content: " ";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -0.4rem;
+        border-width: 0.65rem;
+        border-style: solid;
+        border-color: var(--VeryDarkGrayishBlue) transparent transparent transparent;
+    }
+    
+    #sCont{
+        display: none;
+    }
+  
+    .container{
+        width: 10rem;
+        margin: 0rem 0rem 0rem 0.5rem;
+    }
+    
+    #shareText{
+        font-size: 0.67rem;
+        margin-inline-start: 0rem;
+    }
+    
+    .fb{
+        margin-inline-start: 0.4rem;
+        width: 60%;
+    }
+    
+    .x{
+        margin-inline-start: 0.2rem;
+        width: 70%;
+    }
+    
+    .pin{
+        margin-inline-start: 0.1rem;
+        width: 70%;
+    }
+
+}
+
