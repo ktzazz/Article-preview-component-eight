@@ -103,9 +103,10 @@ ion-icon{
 }
 
 
-ion-icon:hover, ion-icon:focus{
+ion-icon:hover, ion-icon:active{
     background-color: var(--GrayishBlue);
     color: white;
+    cursor: pointer;
 }
 
 .autor{
@@ -123,16 +124,20 @@ ion-icon:hover, ion-icon:focus{
 }
 
 .socials{
+    display: flex;
     position: absolute;
     top: 31.2rem;
     width: 21.5rem;
     height: 4.2rem;
     background-color: var(--VeryDarkGrayishBlue);
-    display: flex;
     justify-content: center;
     border-radius: 0rem 0rem 0.6rem 0.6rem;
     padding: 1rem 0rem 0.7rem 0rem;
     z-index: 1;
+    
+}
+
+#sCont{
     display: none;
 }
 
@@ -141,10 +146,16 @@ ion-icon:hover, ion-icon:focus{
     width: 2rem;
     padding: 0.5rem;
     background-color: var(--DesaturatedDarkBlue);
-    fill: white;
     border-radius: 50%;
     border: 0px solid;
 }
+
+.arrow:hover{
+    cursor: pointer;
+    background-color: var(--GrayishBlue);
+}
+
+
 
 .container{
     display: flex;

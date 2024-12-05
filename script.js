@@ -1,11 +1,24 @@
-const share = document.querySelector("ion-icon");
-const socials = document.querySelectorAll(".sCount"); // Use querySelectorAll
+const share = document.getElementById("i-share");
+const sCont = document.getElementById("sCont");
+const arrow = document.querySelector(".arrow");
 
 share.addEventListener("click", () => {
-    if (socials.style.display === "none") {
-      socials.style.display = "block";
-    } else {
-      socials.style.display = "none";
-    }
-    
+
+  if (sCont.style.display === "none") {
+    sCont.style.display = "block";
+  } else {
+    sCont.style.display = "none";
+  }
+
   });
+
+  arrow.addEventListener("click", () =>{
+
+    if(sCont.style.display === "block"){
+      sCont.style.display = "none";
+    } else {
+      sCont.style.display = "block";
+    }
+
+  })
+
